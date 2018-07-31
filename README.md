@@ -1,6 +1,6 @@
 # m-jxapp-web
 
->  m-jxapp-web project
+> A Vue.js project
 
 ## Build Setup
 
