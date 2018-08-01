@@ -179,7 +179,7 @@
     padding: 0;
   }
   .header .refresh {
-    background: url("../../../static/image/refresh.png") no-repeat center;
+    background: url("../../../git config -–global user.namestatic/image/refresh.png") no-repeat center;
     background-size: 36px 38px;
     width: 102px;
     box-sizing: border-box;
