@@ -10,7 +10,7 @@
         请等待教练审核
       </div>
       <div class="btn-content">
-        <mt-button  type="danger"
+        <mt-button  type="primary"
                     size="large" @click.native="backPage">返回</mt-button>
       </div>
     </div>

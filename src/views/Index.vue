@@ -1,6 +1,6 @@
 <template>
   <div class="order" >
-    <Header :text="'在线预约'" :handle="false"   :transparent="isTransparent"></Header>
+    <Header :text="'在线预约'" :handle="false" :backable="false"   :transparent="isTransparent"></Header>
     <div>
       <div class="order-time">
         <div class="item"
@@ -68,8 +68,8 @@
     box-sizing: border-box;
   }
   .order .order-time .selected{
-    color: $redColor;
-    border-bottom:  1px solid $redColor; /*no*/
+    color: $blueColor;
+    border-bottom:  1px solid $blueColor; /*no*/
   }
   .order .list-wrap{
     overflow: scroll;
@@ -110,7 +110,7 @@
     position: relative;
   }
   .order .label-fill{
-    background: $redColor;
+    background: $blueColor;
     text-align: center;
     color: #fff;
     height: 30px;

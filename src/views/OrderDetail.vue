@@ -15,6 +15,9 @@
         </div>
       </div>
     </div>
+    <mt-cell title="接送服务">
+      <mt-switch v-model="services"></mt-switch>
+    </mt-cell>
     <div class="list-content"  :style="{ height: orderListHeight + 'px' }">
       <div class="list-item">
         <div class="order-content" v-for="item in orderCarTime">
@@ -23,7 +26,7 @@
             <div class="order-time order-tip">{{item.duration}}</div>
           </div>
           <div class="btn-content">
-            <mt-button type="danger"
+            <mt-button type="primary"
                        size="small"
                        class="order-btn"
                        @click.native="order">预约</mt-button>
@@ -104,6 +107,7 @@
       return {
         isTransparent:false,
         orderListHeight:0,
+        services:false,
         orderCarTime:[
           {time:"7:00-8:00",duration:"1小时"},
           {time:"9:00-10:00",duration:"1小时"},
